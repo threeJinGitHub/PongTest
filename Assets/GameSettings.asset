@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6685104e5aa704d26b2766b66241824f, type: 3}
+  m_Name: GameSettings
+  m_EditorClassIdentifier: 
+  BallSettings:
+    _maxAngleOfReboundFromBoard: 150
+    _initialSpeed: 4
+    _additionToSpeed: 2
+  AiSettings:
+    _aiLevel: 1
+  BoostersSetting:
+    _spawnInterval: 20
+    _boardIncreaseSizeValue: 1.25
+    _boardDecreaseSizeValue: 0.8
+  MatchSettings:
+    _pointsToWin: 2
+    _matchDurationInSec: 120
+  BoardSettings:
+    _maxSpeed: 5
+  InputSettings:
+    _inputType: 1
+    _sensitivity: 10
